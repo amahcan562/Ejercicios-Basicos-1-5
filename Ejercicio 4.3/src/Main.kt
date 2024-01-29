@@ -38,7 +38,7 @@ class Personaa (var peso : Double, var altura : Double) {
     fun obtenerDescInc() : String{
         if (this.imc < 18.5){
             return "Peso insuficiente."
-        //}  else if (this.imc > 18.5 && this.imc < 24.9)
+            //}  else if (this.imc > 18.5 && this.imc < 24.9)
         } else if (this.imc < 24.9)   {
             return "Peso saludable."
         } else if (this.imc < 29.9)   {
